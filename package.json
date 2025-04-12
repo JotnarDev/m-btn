@@ -35,11 +35,15 @@
     "button",
     "tailwindcss"
   ],
-  "author": "Tu Nombre",
+  "author": "Jotnar",
   "license": "MIT",
-  "repository": {
+"repository": {
     "type": "git",
-    "url": "git+https://github.com/tu-usuario/m-btn.git"
+    "url": "git+https://github.com/JotnarDev/m-btn.git"
+  },
+  "homepage": "https://www.npmjs.com/package/my-new-btn-lib#under-construction",
+  "bugs": {
+    "url": "https://github.com/JotnarDev/m-btn/issues"
   },
   "private": false
 }

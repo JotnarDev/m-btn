@@ -171,6 +171,13 @@ Below are examples demonstrating the various ways to use the **m-btn** component
 - **Accessibility**:  
   For icon-only buttons (`onlyIcon`), the `label` prop is used as the `aria-label` and `title` to ensure accessibility for screen readers.
 
+## 🔨 Under Construction
+
+The homepage for this project is currently under construction. In the meantime, you can find the source code and report issues on GitHub:
+
+- [GitHub Repository](https://github.com/JotnarDev/m-btn)
+- [Report Issues](https://github.com/JotnarDev/m-btn/issues)
+
 ## ⚖️ License
 
 MIT
