@@ -7,7 +7,7 @@ A reusable Vue 3 button component with Tailwind CSS 4 styling and Font Awesome s
 Install the package via npm:
 
 ```bash
-npm install m-btn-test
+npm i @jotnar/m-btn@latest
 ```
 
 **Prerequisites:** Ensure your project already has Vue 3 (version 3.4.0 or higher) and Tailwind CSS 4 set up, as this component relies on Tailwind CSS classes for styling and Vue 3 for functionality.
