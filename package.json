@@ -1,6 +1,6 @@
 {
   "name": "@jotnar/m-btn",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A reusable Vue 3 button component with Tailwind CSS support",
   "type": "module",
   "main": "./dist/m-btn.umd.js",
@@ -37,7 +37,7 @@
   ],
   "author": "Jotnar",
   "license": "MIT",
-"repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/JotnarDev/m-btn.git"
   },
