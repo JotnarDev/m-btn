@@ -1,0 +1,45 @@
+{
+  "name": "@jotnar/m-btn",
+  "version": "0.1.0",
+  "description": "A reusable Vue 3 button component with Tailwind CSS support",
+  "type": "module",
+  "main": "./dist/m-btn.umd.js",
+  "module": "./dist/m-btn.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/m-btn.es.js",
+      "require": "./dist/m-btn.umd.js"
+    },
+    "./style": "./dist/m-btn-test.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.2.0"
+  },
+  "optionalDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.0.0",
+    "@fortawesome/vue-fontawesome": "^3.0.0"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "button",
+    "tailwindcss"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tu-usuario/m-btn.git"
+  },
+  "private": false
+}
