@@ -10,7 +10,7 @@
       "import": "./dist/m-btn.es.js",
       "require": "./dist/m-btn.umd.js"
     },
-    "./style": "./dist/m-btn-test.css"
+    "./style": "./dist/m-btn.css"
   },
   "files": [
     "dist"

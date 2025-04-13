@@ -18,18 +18,28 @@ You can use the **m-btn** component in your Vue 3 application either by register
 
 ### 🌐 Global Registration
 
-Register the component globally in your Vue app so it can be used anywhere:
+Register the m-btn component globally in your Vue app to use it anywhere in your application. Follow these steps:
+
+1. Import the component in your main JavaScript file (e.g., main.js):
 
 ```javascript
 import { createApp } from 'vue';
 import App from './App.vue';
-import { MBtn } from 'm-btn-test';
+import { MBtn } from '@jotnar/m-btn';
 
 const app = createApp(App);
 app.component('m-btn', MBtn);
 app.mount('#app');
 ```
-Now you can use <m-btn> anywhere in your app.
+
+2. Import the styles in your main CSS file (e.g., main.css):
+
+```css
+@import '@jotnar/m-btn/style';
+@import 'tailwindcss';
+```
+
+Once these steps are complete, you can use the <m-btn> component anywhere in your app.
 
 ### 📦 Local Registration
 
@@ -41,7 +51,7 @@ Alternatively, import and use the component in specific components:
 </template>
 
 <script setup>
-import { MBtn } from 'm-btn-test';
+import { MBtn } from '@jotnar/m-btn';
 </script>
 ```
 
