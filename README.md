@@ -1,4 +1,4 @@
-# m-btn-test
+# m-btn
 
 A reusable Vue 3 button component with Tailwind CSS 4 styling and Font Awesome support. Customize your buttons with sizes, colors, variants, and icons effortlessly!
 
